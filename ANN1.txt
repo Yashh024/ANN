@@ -1,0 +1,17 @@
+import tensorflow as tf
+from tensorflow.keras.activations import sigmoid
+ 
+input_array = tf.constant([-1, 0, 1], dtype=tf.float32)
+print (sigmoid(input_array))
+
+import tensorflow as tf
+from tensorflow.keras.activations import tanh
+
+input_array = tf.constant([-1, 0, 1], dtype=tf.float32)
+print (tanh(input_array))
+
+import tensorflow as tf
+from tensorflow.keras.activations import relu
+ 
+input_array = tf.constant([-1, 0, 1], dtype=tf.float32)
+print (relu(input_array))
